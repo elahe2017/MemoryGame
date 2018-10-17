@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/fragmentContainer_main2"
+    android:background="@drawable/background_title"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    >
+       <LinearLayout
+           android:id="@+id/first"
+        android:layout_width="match_parent"
+           android:layout_gravity="center"
+           android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+
+        android:layout_weight="3">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:src="@drawable/button_difficulty_1_star_0"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/button_difficulty_2_star_0"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+
+            android:layout_height="120dp"
+            android:src="@drawable/button_difficulty_3_star_0"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:src="@drawable/button_difficulty_4_star_0"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/button_difficulty_5_star_0"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+
+            android:layout_height="120dp"
+            android:src="@drawable/button_difficulty_6_star_0"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
